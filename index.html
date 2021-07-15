@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My resume</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel ="stylesheet" href="final.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body style="color: rgb(61, 61, 61);">
+        
+        <!--Heading-->
+        <div class ="nav" id ="nav" style="border-bottom: 1px solid #dcd9d9;
+        position: fixed;
+        background: rgb(49, 147, 226);
+        width: 100%;
+        margin: 0px;
+        padding: inherit;top: 0;">
+            <i class="fa fa-bars" aria-hidden="true" id="hamburger" style ="color: rgb(255, 255, 255);"></i>
+            <i class="fa fa-times  inactive" aria-hidden="true" style="color: rgb(255, 255, 255);"></i>
+            <label style="font-size: 31px; font-weight: lighter; color: white;">MyPortfolio</label><br><br>
+            
+            
+            <ul id="navbar" style="display: none; top: 0;">
+                <li>
+                    <a href="#home" onclick="$('#navbar').hide(); $('.fa-times,.fa-bars').toggle();">Home</a>
+                </li>
+                <li>
+                    <a href="#home" onclick="$('#navbar').hide(); $('.fa-times,.fa-bars').toggle();">About</a>
+                </li>
+                <li>
+                    <a href="#education" onclick="$('#navbar').hide(); $('.fa-times,.fa-bars').toggle();">Education</a>
+                </li>
+                <li>
+                    <a href="#projects" onclick="$('#navbar').hide(); $('.fa-times,.fa-bars').toggle();">Projects</a>
+                </li>
+                <li>
+                    <a href="#certi" onclick="$('#navbar').hide(); $('.fa-times,.fa-bars').toggle();">Certifications</a>
+                </li>
+                <li>
+                    <a href="#skills" onclick="$('#navbar').hide(); $('.fa-times,.fa-bars').toggle();">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact" onclick="$('#navbar').hide(); $('.fa-times,.fa-bars').toggle();">Contact</a>
+                </li>
+            </ul>
+        </div>
+       
+       
+        <div class="header" id ="home" style="margin-top: 100px;">
+            <img src="dp.png" style="border-radius: 50%; width:150px">
+            <h1>Prasanthi Gummaraju</h1>
+
+            <div class="stick-bar" align = "center">
+                <h3 style="color: rgb(49, 147, 226);">About Me</h3>
+                <p>I am an enthusiastic, self-motivated, reliable,responsible and hardworking person.
+                     I am a mature team worker and adaptable to all challenging situations . Interested in new technologies .</p>
+                
+            </div><br>
+            
+            <p style="text-align:right;">
+                <a href="" target="_blank" class="myButton">
+                <button class ="myButton " type="submit"><b>Download Resume</b></button>
+                </a>
+            </p>
+            
+        </div><br> 
+        
+        <!--block1-->
+        <div class ="column" id ="education">
+            <h2>Education</h2>
+        <div class="stick-bar" align = "center">
+            <h3>Sree Vidyanikethan Engineering College</h3>
+            <span class="date">July 2018 - Present</span>
+            <h4>Bachelor of Technology in Computer Science</h4>
+            <p>
+                Currently I am pursuing my Bachelors Degree in Computer Science (since 2018) at 
+                <b>Sree Vidyanikethan Engineering College,Tirupati,India with a <b> CGPA 8.09 </b> </b>.
+            </p>
+            <p style="text-align:right;">
+                <a href="https://www.svec.education/home/" target="_blank" class="myButton">
+                <button class ="myButton " type="submit"><b>Visit Website</b></button>
+                </a>
+            </p>
+        </div><br>
+    
+        <div class="stick-bar" align ="center">
+            <h3>N.R.I Academy</h3>
+            <span class="date">June 2016 - April 2018</span>
+            <h4>Intermediate Education</h4>
+            <p>I have Completed my Intermediate Education at <b>N.R.I Academy,Tirupathi with a <b> Aggregate 94 % </b></b>.</p>
+        </div> <br>
+
+        <div class="stick-bar">
+            <h3>Z.P.H High School</h3>
+            <span class="date">June 2015 - March 2016</span>
+            <h4>Secondary Education</h4>
+            <p>I have Completed my Secondary Education at <b>Z.P.H High School,Kadiri with a <b> GPA 9.2 </b></b>.</p>
+        </div>
+        </div><br>
+        <!--block2-->
+        <div class ="column" id ="projects">
+            <h2>Projects</h2>
+            <div class="stick-bar">
+                <h3>Personal Portfolio Website</h3>
+                <h4>Mini Project</h4>
+                <p style="text-indent: 50px">The Basic Idea behind this Project is to Showcase all my details like Educational Details, Projects, Certifications, Skills and Contact Info on a website on the Internet.
+                    </b>
+                </p>
+                <br>
+            </div>
+        </div><br>
+        <!--block3-->
+        <div class ="column" id ="skills">
+            <h2>Skills</h2>
+            <div class ="stick-bar">
+                <dl>
+                    <dt >Programming Languages. </dt>
+                    <dd>
+                        - C , C++ , Python , Java.
+                    </dd>
+                    <dt > Web-Technogies .</dt>
+                    <dd>
+                        - Html , Css , JavaScript .
+                    </dd>
+                    <dt > Others. </dt>
+                    <dd>
+                        - Knowledge On Git .
+                    </dd>
+                    <dd>
+                        - MySql
+                    </dd>
+                </dl>
+            </div>
+        </div> <br>
+
+        <!--block4-->
+        <div class ="column" id="certi">
+            
+            <h2>Certifications</h2>
+            <div class ="stick-bar">
+                <h4></h4>
+                <img src ="ro.jpeg" style="height: 150px;">
+                <p style="text-align:right;">
+                    <a href="https://drive.google.com/file/d/1Z4PjGNF4qqqp-42ecG5ysZmlWvljYHRG/view?usp=sharing" target="_blank" class="myButton">
+                    <button class ="myButton " type="submit" ><b>View Certificate</b></button>
+                    </a>
+                </p>
+            </div>
+            <div class ="stick-bar">    
+                <h4>Blockchain technologies in courseera</h4>
+                <img src ="course.png" style="height: 150px;">
+                <p style="text-align:right;">
+                    <a href="https://drive.google.com/file/d/1imrCXa475miG1Q_CPsVtK1I4CuBRi9OG/view?usp=sharing" target="_blank" class="myButton">
+                    <button class ="myButton " type="submit" ><b>View cerificate</b></button>
+                    </a>
+                </p>
+            
+            </div>
+        </div>  <br>
+
+        <footer class ="column" id="contact">
+            
+            <p>
+                Copyright &copy; 2021 Prasanthi Gummaraju
+            </p>
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="https://github.com/PrasanthiGummaraju" class="fa fa-github"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <address>
+                <a href="prasanthig254@gmail.com" style="text-decoration: none;"> prasanthig254@gmail.com</a>
+                
+             </address>
+            
+
+        </footer>
+        <script>
+            $(document).ready(function(){
+                $('#hamburger,.fa-times').click(function(){
+                   if($('#hamburger').css('display') == 'none'){
+                    $('#navbar').hide();
+                   }else{
+                    $('#navbar').show();  
+                   } 
+                })
+                $('.fa-bars,.fa-times').click(function(){ $('.fa-times,.fa-bars').toggle(); })
+                
+            })
+            
+        </script>
+    </body>
+</html>
